@@ -1,0 +1,157 @@
+<head>
+  <title id="title">Product Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <header id="header">
+        <div id="logo-div">
+          <img
+            id="header-img"
+            src="https://i.postimg.cc/fbrgr4Gc/guitarlogo.png"
+            width="51"
+          />
+          <figcaption>
+            Music Instruments <span class="namecol">Web</span>Store
+          </figcaption>
+        </div>
+        <nav id="nav-bar" class="dropdown">
+          <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+          <ul class="dropdown-content">
+            <li>
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#how-it-works">How it works</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>Be the first to know about exclusive offers, tips and more.</h2>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Enter your email address"
+          class="form-control"
+          required
+        />
+        <input
+          id="submit"
+          type="submit"
+          value="Get started"
+          class="submit-button"
+        />
+      </form>
+
+      <div id="features">
+        <div class="grid">
+          <div class="icon">
+            <i class="fas fa-shipping-fast"></i>
+          </div>
+          <div class="desc">
+            <h2>Fast Shipping</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Suscipit, ab.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa-solid fa-bolt-lightning"></i>
+          </div>
+          <div class="desc">
+            <h2>Best materials</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus, voluptatum!
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa-solid fa-magnifying-glass-dollar"></i>
+          </div>
+          <div class="desc">
+            <h2>Low prices</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+              quaerat accusamus autem.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="how-it-works">
+        <iframe
+          id="video"
+          width="600"
+          height="400"
+          src="https://www.youtube.com/embed/Ctpcwi1o210"
+        ></iframe>
+        <blockquote
+          cite="https://kidadl.com/quotes/guitar-quotes-from-the-most-incredible-guitarists-through-history"
+        >
+          <p>
+            “If you want music to be your livelihood, then play, play, play and
+            play!...”
+          </p>
+          <cite>-- Eddie Van Halen</cite>
+        </blockquote>
+      </div>
+
+      <div id="products">
+        <div class="product">
+          <div class="prod-name">Electric Guitar</div>
+          <h2>$399</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <button class="btn">Buy</button>
+        </div>
+        <div class="product">
+          <div class="prod-name">Classical Guitar</div>
+          <h2>$499</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <button class="btn">Buy</button>
+        </div>
+        <div class="product">
+          <div class="prod-name">Bass Guitar</div>
+          <h2>$599</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <button class="btn">Buy</button>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2022, Music Instruments WebStore</span>
+      </footer>
+    </div>
+  </body>
+</head>
